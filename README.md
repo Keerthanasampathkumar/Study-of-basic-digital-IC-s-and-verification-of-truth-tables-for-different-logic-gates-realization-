@@ -3,7 +3,8 @@
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
 
 ## Equipments Required:
-Hardware – PCs, Cyclone II , USB flasher
+Hardware – PCs,
+Cyclone II , USB flasher
 Software – Quartus prime
 Theory
 Introduction
@@ -60,25 +61,42 @@ Check all the gates following the same procedure.
 ## Program:
 /*
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
+
 Developed by: KEERTHANA S
+
 RegisterNumber:  21222223006
 
+
 module volg_exp1 (a, b, y1, y2, y3, y4, y5, y6, y7, y8);
+
 input a, b;
+
 output y1, y2, y3, y4, y5, y6, y7, y8;
+
 not (y1, a);
+
 not (y2, b);
+
 or (y3, a, b);
+
 and (y4, a, b);
+
 xor (y5, a, b);
+
 xnor(y6, a, b);
+
 nor (y7, a, b);
+
 nand (y8, a, b);
+
 endmodule
 
 */
-#Logic symbol & Truthtable
-RTL realization
+## Logic symbol & Truthtable:
+
+![Screenshot 2023-04-06 110655](https://user-images.githubusercontent.com/119477890/230281832-0749e4ad-fa8d-45dc-8f25-f99dab650fa5.png)
+
+
 ## Output AND RTL realization:
 
 ![Screenshot 2023-04-06 104523](https://user-images.githubusercontent.com/119477890/230279713-d25938e3-26a8-47ba-a0e6-6a1ba7a07c1c.png)
